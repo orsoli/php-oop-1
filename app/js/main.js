@@ -13,7 +13,7 @@ createApp({
         .get("http://localhost:8888/php-oop-1/index.php")
         .then((response) => {
           // handle success
-          this.moviesList = response.data; // Save movies list get from api
+          this.moviesList = response.data; // Save movies list get from app
           console.log(response.data);
         })
         .catch(function (error) {
